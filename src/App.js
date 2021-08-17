@@ -1,11 +1,14 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import Home from './screens/home';
 
 function App() {
   return (
     <div className="App">
-      <p>
-        This is  test for apple universal links
-      </p>
+      <Router>
+        <Route path="/home" component={Home} />
+        {/* <Redirect path="/" to="/home" exact /> */}
+      </Router>
     </div>
   );
 }
