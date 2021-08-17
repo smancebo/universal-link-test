@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './screens/home';
 
 function App() {
-  const reload = () => window.location.reload();
   return (
     <div className="App">
       <Router>
