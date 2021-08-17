@@ -3,6 +3,10 @@
     {
       "source": "/apple-app-site-association",
       "destination": "/api/apple-site-association"
+    },
+    {
+      "source": "/.well-known/apple-app-site-association",
+      "destination": "/api/apple-site-association"
     }
   ]
 }
