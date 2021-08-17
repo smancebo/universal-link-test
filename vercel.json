@@ -2,10 +2,7 @@
   "redirects": [
     {
       "source": "apple-app-site-association",
-      "destination": ".well-known/apple-app-site-association",
-      "has": [
-        { "type": "header", "key": "Content-Type", "value": "application/json" }
-      ]
+      "destination": ".well-known/apple-app-site-association"
     }
   ]
 }
