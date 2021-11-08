@@ -5,7 +5,7 @@ const appleSiteAssociation = {
     "apps": [],
     "details": [
       {
-        "appID": "5ASGP2XZJG.com.memodapp.app.development.ios",
+        "appID": "QT5P9B392U.com.memod.app.development.ios",
         "paths": [ "*" ]
       }
     ]
